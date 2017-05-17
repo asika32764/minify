@@ -1,6 +1,6 @@
 <?php
 /**
- * Part of phoenix project.
+ * Part of minify project.
  *
  * @copyright  Copyright (C) 2017 ${ORGANIZATION}.
  * @license    __LICENSE__
@@ -10,6 +10,10 @@ namespace Asika\Minifier;
 
 /**
  * The JsMinifier class.
+ *
+ * This is a modified version of JShrink.
+ *
+ * @see  https://github.com/tedious/JShrink
  *
  * @since  __DEPLOY_VERSION__
  */

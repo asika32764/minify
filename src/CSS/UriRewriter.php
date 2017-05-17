@@ -1,6 +1,6 @@
 <?php
 /**
- * Part of phoenix project.
+ * Part of minify project.
  *
  * @copyright  Copyright (C) 2017 ${ORGANIZATION}.
  * @license    __LICENSE__
@@ -9,9 +9,10 @@
 namespace Asika\Minifier\CSS;
 
 /**
- * The UriRewriter class.
+ * Rewrite file-relative URIs as root-relative in CSS files
  *
- * @since  __DEPLOY_VERSION__
+ * @package Minify
+ * @author Stephen Clay <steve@mrclay.org>
  */
 class UriRewriter
 {

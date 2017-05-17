@@ -1,6 +1,6 @@
 <?php
 /**
- * Part of phoenix project.
+ * Part of minify project.
  *
  * @copyright  Copyright (C) 2017 ${ORGANIZATION}.
  * @license    __LICENSE__
