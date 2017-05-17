@@ -83,7 +83,7 @@ class JsMinifier extends AbstractMinifier
 		{
 			ob_start();
 			$content = $this->lock($content);
-			$this->minifyDirectToOutput($content, $options);
+			$this->minifyDirectToOutput($content . ';', $options);
 
 			// Sometimes there's a leading new line, so we trim that out here.
 			$content = ltrim(ob_get_clean());
