@@ -784,9 +784,9 @@ class CSSmin
 	{
 		if (is_string($size)) {
 			switch (substr($size, -1)) {
-				case 'M': case 'm': return $size * 1048576;
-				case 'K': case 'k': return $size * 1024;
-				case 'G': case 'g': return $size * 1073741824;
+				case 'M': case 'm': return intval($size) * 1048576;
+				case 'K': case 'k': return intval($size) * 1024;
+				case 'G': case 'g': return intval($size) * 1073741824;
 			}
 		}
 
